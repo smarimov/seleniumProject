@@ -1,0 +1,1 @@
+[0422/125536.299:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\shoki\AppData\Local\Temp\scoped_dir36680_1013083013\Crashpad\reports\03e60b81-2eed-4daa-a2e7-ca68314192a7.dmp: The process cannot access the file because it is being used by another process. (0x20)
