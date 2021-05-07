@@ -335,7 +335,7 @@ def drag_drop_action():
     url = "https://www.seleniumeasy.com/test/drag-and-drop-demo.html"
     driver.get(url)
 
-    print("Identifying the source and target elements...")
+    print("Identifying the steps and target elements...")
     elem1 = driver.find_element_by_xpath("//span[contains(text(),'Draggable 1')]")
     elem2 = driver.find_element_by_xpath("//span[contains(text(),'Draggable 2')]")
     elem3 = driver.find_element_by_xpath("//span[contains(text(),'Draggable 3')]")
@@ -359,7 +359,7 @@ def drag_drop_action2():
     driver.get(url)
     time.sleep(5)
 
-    print("Identifying the source and target elements...")
+    print("Identifying the steps and target elements...")
     elem1 = driver.find_element_by_xpath("//img[contains(@src, 'high_tatras_min.jpg')]")
     elem2 = driver.find_element_by_xpath("//img[contains(@src, 'high_tatras_min2.jpg')]")
     elem3 = driver.find_element_by_xpath("//img[contains(@src, 'high_tatras_min3.jpg')]")
