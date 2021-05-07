@@ -1,5 +1,6 @@
 import time
 
+import pytest
 from selenium.webdriver import ActionChains
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -10,7 +11,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 driver = webdriver.Chrome()
 
-"""
+
+@pytest.mark.skipp
 def test_drag_and_drop():
     driver.get('https://the-internet.herokuapp.com/drag_and_drop')
     source = driver.find_element_by_id('column-a')
@@ -95,8 +97,6 @@ def context_menu():
     actions = ActionChains(driver)
     actions.context_click(element).perform()
     driver.switch_to_alert().accept()
-
-"""
 
 
 def key_presses():
